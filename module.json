@@ -1,7 +1,7 @@
 {
-  "id": "bedlam-content",
-  "title": "Bedlam Content",
-  "description": "For sharing Bedlam content between worlds.",
+  "id": "foundryvtt-bedlam",
+  "title": "Bedlam For Swade",
+  "description": "A module that adds custom content, compendiums, and customizations for Bedlam, a setting for SWADE.",
   "version": "0.0.1",
   "authors": [
     {

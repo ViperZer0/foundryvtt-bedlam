@@ -2,12 +2,12 @@
   "id": "bedlam-content",
   "title": "Bedlam Content",
   "description": "For sharing Bedlam content between worlds.",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "authors": [
     {
       "name": "Weedleeedle",
       "discord": "weedleeedle",
-      "url": "https://weedleeedle.com/",
+      "url": "https://github.com/viperzer0/",
       "flags": {}
     }
   ],
@@ -136,6 +136,6 @@
       ]
     }
   ],
-  "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
-  "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+  "manifest": "https://raw.githubusercontent.com/ViperZer0/foundryvtt-bedlam/main/module.json",
+  "download": "https://github.com/ViperZer0/foundryvtt-bedlam/archive/refs/heads/main.zip",
 }

@@ -1,0 +1,141 @@
+{
+  "id": "bedlam-content",
+  "title": "Bedlam Content",
+  "description": "For sharing Bedlam content between worlds.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Weedleeedle",
+      "discord": "weedleeedle",
+      "url": "https://weedleeedle.com/",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "10.0",
+    "verified": "11.307"
+  },
+  "relationships": {
+      "systems": [{
+          "id": "swade",
+          "type": "system",
+          "manifest": "https://gitlab.com/peginc/swade/-/releases/v3.0.6/downloads/system.json",
+          "compatibility": {
+              "verified": "3.0.6"
+          }
+      }]
+  },
+  "esmodules": [
+    "scripts/bedlam-module.mjs"
+  ],
+  "packs": [
+    {
+      "name": "bedlam-actors",
+      "label": "Bedlam Actors",
+      "path": "packs/creatures",
+      "type": "Actor",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "bedlam-items",
+      "label": "Bedlam Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "bedlam-scenes",
+      "label": "Bedlam Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "bedlam-journal-entries",
+      "label": "Bedlam Journal Entries",
+      "path": "packs/journal-entries",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "bedlam-macros",
+      "label": "Bedlam Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "bedlam-roll-tables",
+      "label": "Bedlam Roll Tables",
+      "path": "packs/roll-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "bedlam-playlists",
+      "label": "Bedlam Playlists",
+      "path": "packs/playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "bedlam-adventures",
+      "label": "Bedlam Adventures",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Bedlam Compendiums",
+      "sorting": "m",
+      "packs": [
+	"bedlam-actors",
+	"bedlam-items",
+	"bedlam-scenes",
+	"bedlam-journal-entries",
+	"bedlam-macros",
+	"bedlam-roll-tables",
+	"bedlam-playlists",
+	"bedlam-adventures"
+      ]
+    }
+  ],
+  "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+  "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+}
